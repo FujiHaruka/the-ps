@@ -14,6 +14,7 @@
   "dependencies": {
     "mkdirp": "^0.5.1",
     "npid": "^0.4.0",
+    "ps-list": "^4.0.0",
     "terminate": "^2.1.0",
     "the-check": "^1.2.2",
     "yesno": "0.0.1"
