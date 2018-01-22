@@ -4,7 +4,7 @@
             "name": "create",
             "access": "",
             "virtual": false,
-            "description": "Create a ThePs instance",
+            "description": "Create a ThePS instance",
             "parameters": [
                 {
                     "name": "args",
@@ -17,7 +17,7 @@
             ],
             "examples": [],
             "returns": {
-                "type": "ThePs",
+                "type": "ThePS",
                 "description": ""
             }
         },
@@ -25,7 +25,7 @@
             "name": "create",
             "access": "",
             "virtual": false,
-            "description": "Create a ThePs instance",
+            "description": "Create a ThePS instance",
             "parameters": [
                 {
                     "name": "args",
@@ -38,37 +38,87 @@
             ],
             "examples": [],
             "returns": {
-                "type": "ThePs",
+                "type": "ThePS",
                 "description": ""
             }
         }
     ],
     "classes": [
         {
-            "name": "ThePs",
+            "name": "ThePS",
             "description": "",
             "extends": [],
             "access": "",
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "ThePs",
+                "name": "ThePS",
                 "description": "",
-                "parameters": [],
+                "parameters": [
+                    {
+                        "name": "filename",
+                        "type": "string",
+                        "description": "PID filename",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    },
+                    {
+                        "name": "options",
+                        "type": "Object",
+                        "description": "Optional settings",
+                        "default": "{}",
+                        "optional": true,
+                        "nullable": ""
+                    },
+                    {
+                        "name": "options.logEnabled",
+                        "type": "boolean",
+                        "description": "Enable logs",
+                        "default": false,
+                        "optional": true,
+                        "nullable": ""
+                    }
+                ],
                 "examples": []
             }
         },
         {
-            "name": "ThePs",
+            "name": "ThePS",
             "description": "",
             "extends": [],
             "access": "",
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "ThePs",
+                "name": "ThePS",
                 "description": "",
-                "parameters": [],
+                "parameters": [
+                    {
+                        "name": "filename",
+                        "type": "string",
+                        "description": "PID filename",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    },
+                    {
+                        "name": "options",
+                        "type": "Object",
+                        "description": "Optional settings",
+                        "default": "{}",
+                        "optional": true,
+                        "nullable": ""
+                    },
+                    {
+                        "name": "options.logEnabled",
+                        "type": "boolean",
+                        "description": "Enable logs",
+                        "default": false,
+                        "optional": true,
+                        "nullable": ""
+                    }
+                ],
                 "examples": []
             }
         }
