@@ -97,9 +97,8 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-ps@1.0.0](./doc/api/api.md)
++ [the-ps@1.0.1](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-ps-function-create)
-  + [ThePs](./doc/api/api.md#the-ps-class)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->

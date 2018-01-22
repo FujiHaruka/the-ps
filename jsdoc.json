@@ -1,6 +1,14 @@
 {
     "functions": [
         {
+            "name": "acquire",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [],
+            "examples": []
+        },
+        {
             "name": "create",
             "access": "",
             "virtual": false,
@@ -20,6 +28,14 @@
                 "type": "ThePS",
                 "description": ""
             }
+        },
+        {
+            "name": "acquire",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [],
+            "examples": []
         },
         {
             "name": "create",
@@ -72,7 +88,7 @@
                         "nullable": ""
                     },
                     {
-                        "name": "options.logEnabled",
+                        "name": "options.logging",
                         "type": "boolean",
                         "description": "Enable logs",
                         "default": false,
@@ -81,7 +97,33 @@
                     }
                 ],
                 "examples": []
-            }
+            },
+            "functions": [
+                {
+                    "name": "acquire",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Generate pid and remove on exit.",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "acquire",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Generate pid and remove on exit.",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                }
+            ]
         },
         {
             "name": "ThePS",
@@ -111,7 +153,7 @@
                         "nullable": ""
                     },
                     {
-                        "name": "options.logEnabled",
+                        "name": "options.logging",
                         "type": "boolean",
                         "description": "Enable logs",
                         "default": false,
@@ -120,7 +162,33 @@
                     }
                 ],
                 "examples": []
-            }
+            },
+            "functions": [
+                {
+                    "name": "acquire",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Generate pid and remove on exit.",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "acquire",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Generate pid and remove on exit.",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                }
+            ]
         }
     ]
 }

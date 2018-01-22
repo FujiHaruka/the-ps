@@ -1,19 +1,27 @@
-# the-ps@1.0.0
+# the-ps@1.0.1
 
 Process mamager for the-framework
 
 + Functions
+  + [acquire()](#the-ps-function-acquire)
   + [create(args)](#the-ps-function-create)
-+ [`ThePs`](#the-ps-classes) Class
-  + [new ThePs()](#the-ps-classes-the-ps-constructor)
++ [`ThePS`](#the-ps-classes) Class
+  + [new ThePS(filename, options)](#the-ps-classes-the-p-s-constructor)
+  + [s.acquire()](#the-ps-classes-the-p-s-acquire)
+  + [s.acquire()](#the-ps-classes-the-p-s-acquire)
 
 ## Functions
 
+<a class='md-heading-link' name="the-ps-function-acquire" ></a>
+
+### acquire()
+
+
 <a class='md-heading-link' name="the-ps-function-create" ></a>
 
-### create(args) -> `ThePs`
+### create(args) -> `ThePS`
 
-Create a ThePs instance
+Create a ThePS instance
 
 | Param | Type | Description |
 | ----- | --- | -------- |
@@ -23,20 +31,37 @@ Create a ThePs instance
 
 <a class='md-heading-link' name="the-ps-classes"></a>
 
-## `ThePs` Class
+## `ThePS` Class
 
 
 
 
 
 
-<a class='md-heading-link' name="the-ps-classes-the-ps-constructor" ></a>
+<a class='md-heading-link' name="the-ps-classes-the-p-s-constructor" ></a>
 
-### new ThePs()
+### new ThePS(filename, options)
 
-Constructor of ThePs class
+Constructor of ThePS class
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| filename | string | PID filename |
+| options | Object | Optional settings |
+| options.logging | boolean | Enable logs |
 
 
+<a class='md-heading-link' name="the-ps-classes-the-p-s-acquire" ></a>
+
+### s.acquire() -> `Promise.<void>`
+
+Generate pid and remove on exit.
+
+<a class='md-heading-link' name="the-ps-classes-the-p-s-acquire" ></a>
+
+### s.acquire() -> `Promise.<void>`
+
+Generate pid and remove on exit.
 
 
 
