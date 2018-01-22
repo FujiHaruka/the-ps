@@ -1,4 +1,4 @@
-# the-ps@1.0.4
+# the-ps@1.0.5
 
 Process manager for the-framework
 
