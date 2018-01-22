@@ -1,6 +1,6 @@
-# the-ps@1.0.1
+# the-ps@1.0.2
 
-Process mamager for the-framework
+Process manager for the-framework
 
 + Functions
   + [acquire()](#the-ps-function-acquire)
