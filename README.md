@@ -97,7 +97,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-ps@1.0.5](./doc/api/api.md)
++ [the-ps@1.0.6](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-ps-function-create)
 
 
