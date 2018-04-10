@@ -9,7 +9,6 @@ Process manager for the-framework
 + [`ThePS`](#the-ps-classes) Class
   + [new ThePS(filename, options)](#the-ps-classes-the-p-s-constructor)
   + [s.acquire()](#the-ps-classes-the-p-s-acquire)
-  + [s.acquire()](#the-ps-classes-the-p-s-acquire)
 
 ## Functions
 
@@ -51,12 +50,6 @@ Constructor of ThePS class
 | options | Object | Optional settings |
 | options.logging | boolean | Enable logs |
 
-
-<a class='md-heading-link' name="the-ps-classes-the-p-s-acquire" ></a>
-
-### s.acquire() -> `Promise.<void>`
-
-Generate pid and remove on exit.
 
 <a class='md-heading-link' name="the-ps-classes-the-p-s-acquire" ></a>
 
