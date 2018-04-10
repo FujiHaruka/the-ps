@@ -28,35 +28,6 @@
                 "type": "ThePS",
                 "description": ""
             }
-        },
-        {
-            "name": "acquire",
-            "access": "",
-            "virtual": false,
-            "description": "",
-            "parameters": [],
-            "examples": []
-        },
-        {
-            "name": "create",
-            "access": "",
-            "virtual": false,
-            "description": "Create a ThePS instance",
-            "parameters": [
-                {
-                    "name": "args",
-                    "type": "*",
-                    "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": [],
-            "returns": {
-                "type": "ThePS",
-                "description": ""
-            }
         }
     ],
     "classes": [
@@ -99,83 +70,6 @@
                 "examples": []
             },
             "functions": [
-                {
-                    "name": "acquire",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Generate pid and remove on exit.",
-                    "parameters": [],
-                    "examples": [],
-                    "returns": {
-                        "type": "Promise.<void>",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "acquire",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Generate pid and remove on exit.",
-                    "parameters": [],
-                    "examples": [],
-                    "returns": {
-                        "type": "Promise.<void>",
-                        "description": ""
-                    }
-                }
-            ]
-        },
-        {
-            "name": "ThePS",
-            "description": "",
-            "extends": [],
-            "access": "",
-            "virtual": false,
-            "fires": "",
-            "constructor": {
-                "name": "ThePS",
-                "description": "",
-                "parameters": [
-                    {
-                        "name": "filename",
-                        "type": "string",
-                        "description": "PID filename",
-                        "default": "",
-                        "optional": "",
-                        "nullable": ""
-                    },
-                    {
-                        "name": "options",
-                        "type": "Object",
-                        "description": "Optional settings",
-                        "default": "{}",
-                        "optional": true,
-                        "nullable": ""
-                    },
-                    {
-                        "name": "options.logging",
-                        "type": "boolean",
-                        "description": "Enable logs",
-                        "default": false,
-                        "optional": true,
-                        "nullable": ""
-                    }
-                ],
-                "examples": []
-            },
-            "functions": [
-                {
-                    "name": "acquire",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Generate pid and remove on exit.",
-                    "parameters": [],
-                    "examples": [],
-                    "returns": {
-                        "type": "Promise.<void>",
-                        "description": ""
-                    }
-                },
                 {
                     "name": "acquire",
                     "access": "",
