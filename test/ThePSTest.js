@@ -21,7 +21,9 @@ describe('the-ps', () => {
       logEnabled: true
     })
 
-    await ps.acquire()
+    await ps.acquire({
+      killPolicy: 'force'
+    })
 
   })
 })
