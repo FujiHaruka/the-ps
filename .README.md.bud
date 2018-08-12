@@ -4,12 +4,12 @@
 
 'use strict'
 
-const {readmeMdBud} = require('ape-tmpl')
+const {Readme} = require('the-templates')
 const pkg = require('./package.json')
 const {signature} = require('the-script-jsdoc')
 const jsdoc = require('./jsdoc.json')
 
-module.exports = readmeMdBud({
+module.exports = Readme({
   pkg,
   repo: pkg.repository,
   sections: 'doc/guides/*.md.hbs',
@@ -24,12 +24,8 @@ module.exports = readmeMdBud({
     signature: signature(
       jsdoc,
       {
-        classNames: [
-          'ThePs'
-        ],
-        functionNames: [
-          'create'
-        ]
+        classNames: jsdoc.classes.map(({name}) => name),
+        functionNames: jsdoc.functions.map(({name}) => name)
       }
     ),
     apiPath: './doc/api/api.md'

@@ -3,18 +3,12 @@
 const pkg = require('../package.json')
 const {dir} = require('the-templates')
 
-module.exports = [
-  true,
-  false
-].map((cjs) => ({
-  ...dir({
-    cjs,
-    dirname: __dirname,
-    name: pkg.name,
-    description: pkg.description,
-    default: 'create',
-  })
-}))
+module.exports = dir({
+  cjs: true,
+  dirname: __dirname,
+  name: pkg.name,
+  description: pkg.description,
+})
 
 if (!module.parent) {
   require('coz').render(__filename)
