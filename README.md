@@ -92,7 +92,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-ps@1.0.13](./doc/api/api.md)
++ [the-ps@1.0.14](./doc/api/api.md)
   + [acquire()](./doc/api/api.md#the-ps-function-acquire)
   + [create(args)](./doc/api/api.md#the-ps-function-create)
   + [ThePS](./doc/api/api.md#the-p-s-class)
